@@ -1,0 +1,12 @@
+
+@-c-white:#fff;
+@-c-pink:#ff99cc;
+@c-blue:#66cccc;
+
+.transitionFn(@property:all,@duration:1s,@timing-function:linear,@delay:0){
+  -webkit-transition: @arguments;
+}
+
+.animationFn(@name,@duation:1s,@timing-function:ease,@delay:0s,@iteration-count:1,@fill-mode:both){
+  -webkit-animation: @arguments;
+}

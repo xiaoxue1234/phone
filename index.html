@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        //检测PC端和移动端
+
+        ~function () {
+            var reg1 = /AppleWebKit.*Mobile/i,
+                reg2 = /MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/;
+
+            //->条件成立说明当前页面是运行在PC端设备中的
+            if (reg1.test(navigator.userAgent) && reg2.test(navigator.userAgent)) {
+
+                //->如果当前页面的URL是PC端项目的地址:我们需要跳转到移动端项目
+                if (window.location.href.indexOf("https://xiaoxue1234.github.io/phone/.") >= 0) {
+                    window.location.href = "https://xiaoxue1234.github.io/PC/";
+                }
+                return;
+            }
+        }();
+
+    </script>
+    <meta charset="UTF-8">
+
+    <!--BASE-->
+    <title>母婴用品</title>
+    <meta name="keywords" content="月嫂服务,母婴健康管理,母婴健康管理,产后修复,育儿经,培训中心">
+    <meta name="description" content="母婴专享是针对母婴用品的，其中包括了月嫂服务,母婴健康管理,母婴健康管理,产后修复,育儿经,培训中心,为母婴带来的方便">
+
+    <!--META:VP-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--IMPORT LESS-->
+    <link rel="stylesheet" href="css/reset.less"/>
+    <link rel="stylesheet/less" href="css/index.less"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+
+    <!--IMPORT JS-->
+    <script src="js/less-2.5.3.min.js"></script>
+    <script src="js/html5.min.js"></script>
+
+    <!--REM-->
+    <script>
+    ~function () {
+        var winW=document.documentElement.clientWidth,
+            desW=640;
+        if(winW<desW){
+            document.documentElement.style.fontSize=winW/desW*100+'px';
+        }
+    }();
+    </script>
+</head>
+<body>
+<!--头部-->
+<header class="header">
+    <!--导航-->
+    <nav class="nav">
+        <div class="navHeader">
+            <h1>
+                <a href="###" id="logCon"><img src="imges/logo.png" alt="网页"></a>
+            </h1>
+        </div>
+        <div class="navCon">
+            <ul class="ul">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">月嫂服务</a></li>
+                <li><a href="#">母婴健康管理</a></li>
+                <li><a href="#">产后修复</a></li>
+                <li><a href="#">育儿经</a></li>
+                <li><a href="#">培训中心</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <a href="javascript:;" class="g-nav-entry"></a>
+        </div>
+    </nav>
+    <div class="choose">
+        <img src="imges/banner.jpg" alt="">
+    </div>
+</header>
+<!--解决方案-->
+<section class="banner-plan swiper-container">
+    <div id="plan" class="plan swiper-wrapper">
+        <div class="swiper-slide">
+                <ul class="banner swiper-lazy">
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                </ul>
+                <div class="swiper-lazy-preloader"></div>
+        </div>
+        <div class="swiper-slide">
+                <!--<img data-src="img/banner/banner2.jpg" alt="" class="swiper-lazy"/>-->
+                <ul class="banner swiper-lazy">
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                </ul>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+        <div class="swiper-slide">
+                <ul class="banner swiper-lazy">
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                </ul>
+                <!--<img data-src="img/banner/banner3.jpg" alt="" class="swiper-lazy"/>-->
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+        <div class="swiper-slide">
+                <ul class="banner swiper-lazy">
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                </ul>
+                <!--<img data-src="img/banner/banner4.jpg" alt="" class="swiper-lazy"/>-->
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+        <div class="swiper-slide">
+                <ul class="banner swiper-lazy">
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                    <li>
+                        <i><img src="imges/baby-1.png" alt=""></i>
+                        <span>定制月嫂</span>
+                        <a href="###">立即咨询</a>
+                    </li>
+                </ul>
+                <!--<img data-src="img/banner/banner5.jpg" alt="" class="swiper-lazy"/>-->
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+    </div>
+    <!--分页器-->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!--左右切换的箭头-->
+    <a class="left swiper-button-prev swiper-button-white" href="javascript:;"></a>
+    <a class="right swiper-button-next swiper-button-white" href="javascript:;"></a>
+</section>
+<!--定制月子餐-->
+<section class="food">
+    <div class="out">
+        <div class="right">
+            <h3>定制月子餐</h3>
+            <div class="text">
+                <p>约43%的产妇营养不达标</p>
+                <p>约约约43%的产妇营养不达标</p>
+                <p>约约约约43%的产妇营养不达标</p>
+            </div>
+
+            <div class="QR-code">
+                <img src="imges/QR-code-1.jpg" alt="">
+                <span>扫一扫领取</span>
+            </div>
+            <p class="month">免费提供个性化的月子套餐</p>
+        </div>
+    </div>
+</section>
+<!--金牌月嫂视频展示-->
+<section class="audio">
+    <h3>金牌月嫂视频展示</h3>
+    <ul>
+        <li class="con"><img src="imges/baby-2.png" alt="">
+            <span>简介：文字内容</span>
+            <b><i></i></b>
+        </li>
+        <li><img src="imges/baby-2.png" alt="">
+            <span>简介：文字内容</span>
+            <b><i></i></b>
+        </li>
+        <li><img src="imges/baby-2.png" alt="">
+            <span>简介：文字内容</span>
+            <b><i></i></b>
+        </li>
+        <li><img src="imges/baby-2.png" alt="">
+            <span>简介：文字内容</span>
+            <b><i></i></b>
+        </li>
+        <li><img src="imges/baby-2.png" alt="">
+            <span>简介：文字内容</span>
+            <b><i></i></b>
+        </li>
+        <li><img src="imges/baby-2.png" alt="">
+            <span>简介：文字内容</span>
+            <b><i></i></b>
+        </li>
+    </ul>
+</section>
+<!--专护服务-->
+<section class="server">
+    <h3>多对一专护服务</h3>
+    <p>真切的关怀、真诚的呵护</p>
+    <p>臻馨A套餐，开启精致月子之旅。真切的关怀、真诚的呵护臻馨A套餐，开启精致月子之旅。真切的关怀、真诚的呵护臻馨A套餐，开启精致月子之旅。真切的关怀、真诚</p>
+    <p>臻馨A套餐，开启精致月子之旅。真切的关怀、真诚的呵护。臻馨A套餐，开启精致月子之旅。真切的关怀、</p>
+    <ul>
+        <li>
+            <img src="imges/picture.png" alt="">
+            <span>套餐简介：文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容</span></li>
+        <li>
+            <img src="imges/picture.png" alt="">
+            <span>套餐简介：文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容</span></li>
+        <li>
+            <img src="imges/picture.png" alt="">
+            <span>套餐简介：文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容</span></li>
+        <li>
+            <img src="imges/picture.png" alt="">
+            <span>套餐简介：文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容</span></li>
+    </ul>
+</section>
+<!--育儿经-->
+<section class="methon">
+    <div class="child-rearing ">
+        <div class="child-main" >
+            <div class="child-tit" id="childTit">
+                <p>育儿经</p>
+                <div class="con">
+                    <a id="on" href="javascript:;">分类一</a>
+                    <a href="javascript:;">分类二</a>
+                    <a href="javascript:;">分类三</a>
+                </div>
+            </div>
+            <div class="child-hidden" id="contexHid">
+                <div class="child-list " style="display: block">
+                    <div class="child-left">
+                        <a href="javascript:;" class="top">
+                            <img src="imges/dance.jpg" alt="">
+                        </a>
+                        <div class="bottom">
+                            <a href="javascript:;">
+                                <img src="imges/QR-code-1.jpg" alt="">
+                            </a>
+                            <div>
+                                <span>扫一扫关注</span>
+                                <p>文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>11111</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="child-list ">
+                    <div class="child-left">
+                        <a href="javascript:;" class="top">
+                            <img src="imges/dance.jpg" alt="">
+                        </a>
+                        <div class="bottom">
+                            <a href="javascript:;">
+                                <img src="imges/QR-code-1.jpg" alt="">
+                            </a>
+                            <div>
+                                <span>扫一扫关注</span>
+                                <p>文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>2222</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="child-list ">
+                    <div class="child-left">
+                        <a href="javascript:;" class="top">
+                            <img src="imges/dance.jpg" alt="">
+                        </a>
+                        <div class="bottom">
+                            <a href="javascript:;">
+                                <img src="imges/QR-code-1.jpg" alt="">
+                            </a>
+                            <div>
+                                <span>扫一扫关注</span>
+                                <p>文字内容文字内容文字内容文字内容文字内容文字内容文字</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>3333</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;"><span>文字标题</span></a>
+                                <a href="javascript:;">
+                                    文字内容文字内容文字内容文字内容</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--底部-->
+<footer class="footer">
+    <div class="footer_middle" id="fuji">
+        <dl class="dl1">
+            <dt class="dt1">关于我们</dt>
+            <dd class="dd1"><a href="javascript:;">二级栏目</a></dd>
+            <dd class="dd1"><a href="javascript:;">二级栏目</a></dd>
+            <dd class="dd1"><a href="javascript:;">二级栏目</a></dd>
+        </dl>
+        <dl class="dl2">
+            <dt class="dt2">服务项目</dt>
+            <dd class="dd2"><a href="javascript:;">二级栏目</a></dd>
+            <dd class="dd2"><a href="javascript:;">二级栏目</a></dd>
+            <dd class="dd2"><a href="javascript:;">二级栏目</a></dd>
+        </dl>
+        <dl class="dl3">
+            <dt class="dt3">专业培训</dt>
+            <dd class="dd3"><a href="javascript:;">二级栏目</a></dd>
+            <dd class="dd3"><a href="javascript:;">二级栏目</a></dd>
+            <dd class="dd3"><a href="javascript:;">二级栏目</a></dd>
+        </dl>
+        <dl class="dl4">
+            <dt class="dt4">联系我们</dt>
+            <dd class="dd4"><a href="javascript:;">热线电话：400-8837-626</a></dd>
+            <dd class="dd4"><a href="javascript:;">服务时间：周一到周五（9:00-17:00）</a></dd>
+            <dd class="dd4"><a href="javascript:;">手机：13161605595</a></dd>
+        </dl>
+    </div>
+</footer>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var mySwiper = new Swiper(".swiper-container",{
+        direction:"horizontal",  //horizontal 横向的 vertical 纵向的
+        pagination: '.swiper-pagination',
+        paginationClickable :true,
+        prevButton:".swiper-button-prev",
+        nextButton:".swiper-button-next",
+        /* autoplay:1000,*/ /*自动轮播间隔时间*/
+        autoplayDisableOnInteraction:false,/*启动autoplay*/
+        loop:true,  /*循环模式*/
+        effect:"coverflow",/*cube 3D翻转 coverflow 3D切换 flip 左右翻转 默认值是slide*/
+        lazyLoading :true, /*设置延迟加载*/
+        lazyLoadingInPrevNext:true /*对相邻的滑块提前做延迟加载*/
+    })
+</script>
+</html>
